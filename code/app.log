@@ -1,0 +1,206 @@
+2024-03-30 12:11:22,007 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:11:22,022 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:12:43,079 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:12:43,084 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:12:44,045 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:12:44,105 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 12:12:44,105 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-30 12:12:44,111 - INFO -  * Restarting with stat
+2024-03-30 12:12:47,259 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:12:47,269 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:12:47,694 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:12:47,705 - WARNING -  * Debugger is active!
+2024-03-30 12:12:47,708 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:21:34,817 - INFO - 127.0.0.1 - - [30/Mar/2024 12:21:34] "[33mGET / HTTP/1.1[0m" 404 -
+2024-03-30 12:21:34,947 - INFO - 127.0.0.1 - - [30/Mar/2024 12:21:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-30 12:21:46,700 - INFO - 127.0.0.1 - - [30/Mar/2024 12:21:46] "[33mGET / HTTP/1.1[0m" 404 -
+2024-03-30 12:21:46,963 - INFO - 127.0.0.1 - - [30/Mar/2024 12:21:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-30 12:22:40,137 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:22:41,815 - INFO -  * Restarting with stat
+2024-03-30 12:22:46,277 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:22:46,281 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:22:55,632 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:22:55,748 - WARNING -  * Debugger is active!
+2024-03-30 12:22:55,761 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:23:06,132 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:23:06,897 - INFO -  * Restarting with stat
+2024-03-30 12:23:10,867 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:23:10,871 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:23:12,025 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:23:12,038 - WARNING -  * Debugger is active!
+2024-03-30 12:23:12,043 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:23:20,194 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:23:20,198 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:23:21,950 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:23:21,989 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 12:23:21,989 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-30 12:23:21,991 - INFO -  * Restarting with stat
+2024-03-30 12:23:25,519 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:23:25,523 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:23:32,351 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:23:32,479 - WARNING -  * Debugger is active!
+2024-03-30 12:23:32,495 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:27:48,129 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:27:49,337 - INFO -  * Restarting with stat
+2024-03-30 12:27:52,275 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:27:52,279 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:28:42,324 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:28:42,328 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:28:47,089 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:28:47,169 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 12:28:47,169 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-30 12:28:47,172 - INFO -  * Restarting with stat
+2024-03-30 12:28:49,783 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:28:49,787 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:28:56,622 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:28:56,645 - WARNING -  * Debugger is active!
+2024-03-30 12:28:56,657 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:35:46,450 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:35:48,251 - INFO -  * Restarting with stat
+2024-03-30 12:36:02,500 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:36:02,505 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:36:06,628 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:36:06,789 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 12:36:06,790 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-30 12:36:06,793 - INFO -  * Restarting with stat
+2024-03-30 12:36:09,773 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:36:09,778 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:36:12,444 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:36:12,474 - WARNING -  * Debugger is active!
+2024-03-30 12:36:12,493 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:46:34,390 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:46:34,419 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:46:35,428 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:46:35,505 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 12:46:35,505 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-30 12:46:35,510 - INFO -  * Restarting with stat
+2024-03-30 12:46:39,111 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:46:39,120 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:46:44,351 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:46:44,378 - WARNING -  * Debugger is active!
+2024-03-30 12:46:44,392 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:49:29,437 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:49:30,628 - INFO -  * Restarting with stat
+2024-03-30 12:49:33,760 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:49:33,760 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: [Errno 2] No such file or directory: 'tfidf_matrix.npy'
+2024-03-30 12:49:34,605 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:49:34,621 - WARNING -  * Debugger is active!
+2024-03-30 12:49:34,625 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:49:41,755 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:49:42,055 - INFO -  * Restarting with stat
+2024-03-30 12:49:44,654 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:49:44,676 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:49:44,998 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:49:45,010 - WARNING -  * Debugger is active!
+2024-03-30 12:49:45,015 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:51:38,990 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:51:39,336 - INFO -  * Restarting with stat
+2024-03-30 12:51:42,446 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:51:42,446 - ERROR - Error saving TF-IDF matrix or cosine similarity matrix: name 'tfidf_matrix' is not defined
+2024-03-30 12:51:43,478 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:51:43,490 - WARNING -  * Debugger is active!
+2024-03-30 12:51:43,494 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:52:16,062 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:52:16,373 - INFO -  * Restarting with stat
+2024-03-30 12:52:19,310 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:52:19,310 - ERROR - Error saving TF-IDF matrix or cosine similarity matrix: name 'tfidf_matrix' is not defined
+2024-03-30 12:52:19,811 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:52:19,831 - WARNING -  * Debugger is active!
+2024-03-30 12:52:19,838 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:52:20,887 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:52:21,122 - INFO -  * Restarting with stat
+2024-03-30 12:52:23,321 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:52:23,322 - ERROR - Error saving TF-IDF matrix or cosine similarity matrix: name 'tfid_matrix' is not defined
+2024-03-30 12:52:23,700 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:52:23,715 - WARNING -  * Debugger is active!
+2024-03-30 12:52:23,722 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:53:08,508 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:53:08,840 - INFO -  * Restarting with stat
+2024-03-30 12:53:10,978 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:53:10,982 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:53:11,382 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:53:11,395 - WARNING -  * Debugger is active!
+2024-03-30 12:53:11,400 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:53:14,481 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:53:14,764 - INFO -  * Restarting with stat
+2024-03-30 12:53:17,331 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:53:17,335 - ERROR - Error loading TF-IDF matrix or cosine similarity matrix: Object arrays cannot be loaded when allow_pickle=False
+2024-03-30 12:53:17,716 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:53:17,733 - WARNING -  * Debugger is active!
+2024-03-30 12:53:17,740 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:55:43,131 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:55:43,436 - INFO -  * Restarting with stat
+2024-03-30 12:55:46,060 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:55:47,129 - INFO - TF-IDF matrix, cosine similarity matrix, and vectorizer loaded successfully
+2024-03-30 12:55:48,491 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:55:48,505 - WARNING -  * Debugger is active!
+2024-03-30 12:55:48,509 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 12:58:53,707 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 12:58:54,413 - INFO -  * Restarting with stat
+2024-03-30 12:58:57,938 - INFO - Netflix dataset loaded successfully
+2024-03-30 12:58:59,809 - INFO - TF-IDF matrix, cosine similarity matrix, and vectorizer loaded successfully
+2024-03-30 12:59:04,020 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 12:59:04,177 - WARNING -  * Debugger is active!
+2024-03-30 12:59:04,208 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 13:00:20,461 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 13:00:21,520 - INFO -  * Restarting with stat
+2024-03-30 13:00:24,792 - INFO - Netflix dataset loaded successfully
+2024-03-30 13:00:25,811 - INFO - TF-IDF matrix, cosine similarity matrix, and vectorizer loaded successfully
+2024-03-30 13:00:27,330 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 13:00:27,484 - WARNING -  * Debugger is active!
+2024-03-30 13:00:27,507 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 13:01:24,181 - INFO -  * Detected change in 'E:\\assignments\\MLOPS\\Assignment1\\app.py', reloading
+2024-03-30 13:01:24,699 - INFO -  * Restarting with stat
+2024-03-30 13:01:27,636 - INFO - Netflix dataset loaded successfully
+2024-03-30 13:01:28,515 - INFO - TF-IDF matrix, cosine similarity matrix, and vectorizer loaded successfully
+2024-03-30 13:01:30,453 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 13:01:30,466 - WARNING -  * Debugger is active!
+2024-03-30 13:01:30,470 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 13:18:23,687 - INFO - Netflix dataset loaded successfully
+2024-03-30 13:18:26,153 - INFO - TF-IDF matrix, cosine similarity matrix, and vectorizer loaded successfully
+2024-03-30 13:18:28,876 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 13:18:28,982 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 13:18:28,983 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-30 13:18:28,988 - INFO -  * Restarting with stat
+2024-03-30 13:18:31,740 - INFO - Netflix dataset loaded successfully
+2024-03-30 13:18:32,775 - INFO - TF-IDF matrix, cosine similarity matrix, and vectorizer loaded successfully
+2024-03-30 13:18:39,397 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 13:18:39,447 - WARNING -  * Debugger is active!
+2024-03-30 13:18:39,460 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 13:23:21,240 - INFO - 127.0.0.1 - - [30/Mar/2024 13:23:21] "GET / HTTP/1.1" 200 -
+2024-03-30 13:23:21,838 - INFO - 127.0.0.1 - - [30/Mar/2024 13:23:21] "GET /static/main.js HTTP/1.1" 200 -
+2024-03-30 13:23:25,457 - WARNING - No title similar to 'ccv' found in the dataset
+2024-03-30 13:23:25,458 - WARNING - No recommendations found for title 'ccv'
+2024-03-30 13:23:25,463 - INFO - 127.0.0.1 - - [30/Mar/2024 13:23:25] "[33mGET /recommend?title=ccv HTTP/1.1[0m" 404 -
+2024-03-30 13:23:26,227 - WARNING - No title similar to 'ccv' found in the dataset
+2024-03-30 13:23:26,227 - WARNING - No recommendations found for title 'ccv'
+2024-03-30 13:23:26,229 - INFO - 127.0.0.1 - - [30/Mar/2024 13:23:26] "[33mGET /recommend?title=ccv HTTP/1.1[0m" 404 -
+2024-03-30 13:24:07,955 - WARNING - No title similar to 'tom and jerry' found in the dataset
+2024-03-30 13:24:07,955 - WARNING - No recommendations found for title 'tom and jerry'
+2024-03-30 13:24:07,956 - INFO - 127.0.0.1 - - [30/Mar/2024 13:24:07] "[33mGET /recommend?title=tom%20and%20jerry HTTP/1.1[0m" 404 -
+2024-03-30 13:24:48,261 - WARNING - No title similar to 'chappie' found in the dataset
+2024-03-30 13:24:48,261 - WARNING - No recommendations found for title 'chappie'
+2024-03-30 13:24:48,262 - INFO - 127.0.0.1 - - [30/Mar/2024 13:24:48] "[33mGET /recommend?title=chappie HTTP/1.1[0m" 404 -
+2024-03-30 13:24:48,919 - WARNING - No title similar to 'chappie' found in the dataset
+2024-03-30 13:24:48,919 - WARNING - No recommendations found for title 'chappie'
+2024-03-30 13:24:48,920 - INFO - 127.0.0.1 - - [30/Mar/2024 13:24:48] "[33mGET /recommend?title=chappie HTTP/1.1[0m" 404 -
+2024-03-30 13:24:50,172 - WARNING - No title similar to 'chappie' found in the dataset
+2024-03-30 13:24:50,172 - WARNING - No recommendations found for title 'chappie'
+2024-03-30 13:24:50,173 - INFO - 127.0.0.1 - - [30/Mar/2024 13:24:50] "[33mGET /recommend?title=chappie HTTP/1.1[0m" 404 -
+2024-03-30 13:25:40,704 - WARNING - No title similar to 'Blood and Water' found in the dataset
+2024-03-30 13:25:40,704 - WARNING - No recommendations found for title 'Blood and Water'
+2024-03-30 13:25:40,706 - INFO - 127.0.0.1 - - [30/Mar/2024 13:25:40] "[33mGET /recommend?title=Blood%20and%20Water HTTP/1.1[0m" 404 -
+2024-03-30 13:30:20,358 - INFO -  * Detected change in 'C:\\Users\\Grace\\Desktop\\bbb\\app.py', reloading
+2024-03-30 13:30:22,118 - INFO -  * Restarting with stat
+2024-03-30 13:34:03,086 - INFO - Netflix dataset loaded successfully
+2024-03-30 13:34:04,514 - INFO - TF-IDF matrix, cosine similarity matrix, and vectorizer loaded successfully
+2024-03-30 13:34:07,830 - INFO - Cosine similarity matrix loaded successfully
+2024-03-30 13:34:07,859 - WARNING -  * Debugger is active!
+2024-03-30 13:34:07,868 - INFO -  * Debugger PIN: 102-289-409
+2024-03-30 13:36:25,462 - INFO -  * Detected change in 'C:\\Users\\Grace\\Desktop\\bbb\\app.py', reloading
