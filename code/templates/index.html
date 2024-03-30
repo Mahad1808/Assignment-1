@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Recommendation System</title>
+</head>
+<body>
+    <h1>Welcome to Netflix Recommendation System</h1>
+    <form id="recommendation-form">
+        <label for="title">Enter Title:</label>
+        <input type="text" id="title" name="title" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+
+    <h2>Recommendations:</h2>
+    <div id="recommendations">
+        <h3>Movies</h3>
+        <ul id="movies-list"></ul>
+        <h3>TV Shows</h3>
+        <ul id="tv-shows-list"></ul>
+    </div>
+
+    <!-- Include main.js file -->
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

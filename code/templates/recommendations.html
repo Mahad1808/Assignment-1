@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Recommendations</title>
+</head>
+<body>
+    <h1>Netflix Recommendations</h1>
+    <h2>Movies</h2>
+    <ul>
+        {% for movie in movies %}
+        <li>{{ movie }}</li>
+        {% endfor %}
+    </ul>
+    <h2>TV Shows</h2>
+    <ul>
+        {% for tv_show in tv_shows %}
+        <li>{{ tv_show }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
