@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout code from the repository
+                git branch: 'dev', url: 'https://github.com/your/repository.git'
+            }
+        }
+
+        stage('Containerize and Push to Docker Hub') {
+            steps {
+                // Build Docker image and push to Docker Hub
+                withCredentials([usernamePassword(credentialsId: 'f20c68a8-14c6-4ab8-8386-a1d34122a160', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
+                    sh 'docker build -t Assignment1.'
+                    sh 'docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
+                    sh 'docker tag Assignment1 Laibaimran/Assignment1:latest'
+                    sh 'docker push Laibaimran/Assignment1:latest'
+                }
+            }
+        }
+
+        stage('Email Notification') {
+            steps {
+                // Send email notification to administrator
+                emailext subject: 'Jenkins Job Execution Successful',
+                    body: 'The Jenkins job to containerize and push the application to Docker Hub was executed successfully.',
+                    to: 'Laibaimran1770@gmail.com'
+            }
+        }
+    }
+
+    post {
+        always {
+            // Clean up workspace
+            cleanWs()
+        }
+    }
+}
