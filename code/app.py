@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 import re
 import logging
-from sklearn.metrics.pairwise import cosine_similarity
+# from sklearn.metrics.pairwise import cosine_similarity
 
 
 app = Flask(__name__)
@@ -62,8 +62,7 @@ class FlixHub:
 
 @app.route('/recommend', methods=['GET'])
 def recommend():
-    myname="Mahad"
-    hello="World"
+    
     title = request.args.get('title')
     if not title:
         logging.warning("No title provided for recommendation")
