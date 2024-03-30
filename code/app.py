@@ -63,6 +63,7 @@ class FlixHub:
 @app.route('/recommend', methods=['GET'])
 def recommend():
     myname="Mahad"
+    hello="World"
     title = request.args.get('title')
     if not title:
         logging.warning("No title provided for recommendation")
