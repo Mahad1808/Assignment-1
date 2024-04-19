@@ -1,42 +1,40 @@
 pipeline {
+    environment {
+        registryCredential = 'docker'
+        IMAGE_NAME = 'mahaddevops/assignment-1'
+        TAG = 'latest' 
+    }
     agent any
-    
     stages {
-        stage('Checkout') {
+        stage('Cloning Git Repository') {
             steps {
-                // Checkout the code from the main branch
-                  git branch: 'main', url: 'https://github.com/Mahad1808/Assignment-1.git'
+                git branch: 'main', url: 'https://github.com/Mahad1808/Assignment-1.git'
             }
         }
-        
-        stage('Build and Push Docker Image') {
+        stage('Building our image') {
             steps {
                 script {
-                    // Build Docker image
-                    docker.build('mahaddevops/assignment-1')
-                    
-                    // Authenticate with Docker Hub
-                    docker.withRegistry('', 'docker') {
-                        // Push Docker image to Docker Hub
-                        docker.image('mahaddevops/assignment-1').push()
+                    docker.build("${IMAGE_NAME}:${TAG}")
+                }
+            }
+        }
+        stage('Deploy our image') {
+            steps {
+                script {
+                    docker.withRegistry('', registryCredential) {
+                        docker.image("${IMAGE_NAME}:${TAG}").push()
                     }
                 }
             }
         }
     }
-    
-    post {
-        success {
-           
-            emailext subject: 'Docker Image Notification Email',
-                      body: 'The Docker image for your application has been successfully built and pushed to Docker Hub.',
-                      to: 'mahadrahat2@gmail.com'
-        }
-        failure {
-            
-            emailext subject: 'Failed to build and push Docker image',
-                      body: 'There was an error while building and pushing the Docker image to Docker Hub.',
-                      to: 'mahadrahat2@gmail.com'
-        }
-    }
+//     post {
+//         success {
+//             emailext(
+//                 to: 'mahadrahat@gmail.com',
+//                 subject: 'Build Successful ',
+//                 body: 'The docker image successfully pushed to Dockerhub! Well Done!'
+//             )
+//         }
+//     }
 }
