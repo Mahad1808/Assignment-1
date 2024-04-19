@@ -13,12 +13,12 @@ pipeline {
             steps {
                 script {
                     // Build Docker image
-                    docker.build('mahaddevops/flaskapp:v1')
+                    docker.build('mahaddevops/assignment-1')
                     
                     // Authenticate with Docker Hub
                     docker.withRegistry('', 'docker') {
                         // Push Docker image to Docker Hub
-                        docker.image('mahaddevops/flaskapp:v1').push()
+                        docker.image('mahaddevops/assignment-1').push()
                     }
                 }
             }
