@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('docker')
-        DOCKER_IMAGE_NAME = 'mahaddevops/flask-app'
+        DOCKER_IMAGE_NAME = 'mahaddevops/flaskapp'
     }
 
     stages {
