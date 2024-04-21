@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registryCredential = 'docker'
-        IMAGE_NAME = 'mahaddevops/assignment-1'
+        IMAGE_NAME = 'mahaddevops/Mlops'
         TAG = 'latest' 
     }
     agent any
