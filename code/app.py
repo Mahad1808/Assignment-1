@@ -6,6 +6,7 @@ import re
 import logging
 # from sklearn.metrics.pairwise import cosine_similarity
 
+
 app = Flask(__name__)
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -15,7 +16,9 @@ try:
     netflix_data = pd.read_csv("movie_data.csv")
     logging.info("Netflix dataset loaded successfully")
 except Exception as e:
-    logging.error(f"Error loading Netflix dataset: {str(e)}")
+    logging.error(
+    f"Error loading Netflix dataset: {str(e)}"
+)
 
 # Load precomputed TF-IDF matrix and cosine similarity matrix
 try:
@@ -59,6 +62,7 @@ class FlixHub:
 
 @app.route('/recommend', methods=['GET'])
 def recommend():
+    
     title = request.args.get('title')
     if not title:
         logging.warning("No title provided for recommendation")
